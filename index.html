@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+    <title>Taptap penguin game</title>
+</head>
+<body>
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div id="islands">
+          <div style="font-weight:bold">Islands</div>
+          <div>&nbsp;</div>
+          <div>
+            <ul id="islandsList">
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="allscreen">
+        <nav id="navbar">
+          <div><img src="./tiles/TTP-Logo.png">
+          </div>
+          <div id="info">
+          </div>
+          <div>
+            <img id="btn-stop" src="./tiles/TTP-start.png" width="48" height="48">
+            <img id="btn-default" src="./tiles/TTP-plus.png" width="48" height="48">
+            <img id="btn-clone" src="./tiles/TTP-sessions.png" width="48" height="48">
+          </div>
+        </nav>
+        <div class="area">
+            <div id="backLayer">
+            </div>
+            <div id="mapLayer">
+              <div id="map">
+              </div>
+            </div>
+            <div id="artifactsLayer">
+            </div>
+            <div id="topLayer">
+              <img id="sun" style="opacity: 0" src="./tiles/weather-sun.png" width="576" height="576">
+              <img id="rain" style="opacity: 0" src="./tiles/weather-rain.png" width="576" height="576">
+              <img id="cold" style="opacity: 0" src="./tiles/weather-cold.png" width="576" height="576">
+              <img id="snow" style="opacity: 0" src="./tiles/weather-snow.png" width="576" height="576">
+              <img id="endgame" style="opacity: 0" src="./tiles/weather-endgame.png" width="576" height="576">
+              <div id="islandName">
+              </div>
+              <div id="score">
+              </div>
+            </div>
+            <div id="dotLayer">
+              <img id="dots" style="opacity: 0" src="./tiles/waves-back.png" width="576" height="576">
+            </div>
+            <div id="penguinsLayer">
+            </div>
+          <div id="rbar">
+            <ul id="penguins">
+            </ul>
+         </div>
+       </div>
+     </div>
+
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
